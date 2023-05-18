@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disease Outbreak Prediction</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Disease Outbreak Prediction</h1>
+    </header>
+    <main>
+        <div class="input-container">
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate">
+        </div>
+        <div class="input-container">
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate">
+        </div>
+        <div class="input-container">
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location">
+        </div>
+        <button id="predictBtn">Predict Outbreak</button>
+        <div id="predictionResult"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
