@@ -1,4 +1,4 @@
-# Vaishu_Project
+
 
 1. Make sure you have Node.js installed on your system. You can check if Node.js is installed by running the following command in your terminal:
 node -v
